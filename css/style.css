@@ -1,0 +1,105 @@
+/*ESTILOS GENERAL*/
+#header-1 {
+    display: flex;
+    align-items: center;
+    background-color: darkmagenta;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+#header-1 img {
+    width: 70px;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 10px;
+
+}
+
+#header-1 h1 {
+    font-size: 24px; 
+    margin-bottom: 3px;
+}
+#header-1 h4 {
+    font-size: 14px;
+}
+
+/* Estilos barra de navegación */
+nav ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    
+}
+
+nav ul li {
+    display: inline-block; 
+    margin-right: 10px; 
+}
+
+nav ul li a {
+    text-decoration: none; 
+    padding: 10px;
+    display: block; 
+    color: black;
+}
+nav ul ul {
+    display: none; 
+    position: absolute; 
+    background-color: #f085fa; 
+    box-shadow: 0 0 5px rgba(0,0,0,0.2); 
+}
+
+nav ul li:hover > ul {
+    display: block; 
+}
+
+
+footer{
+    P{
+        color: white;
+        background-color: darkmagenta;
+    }
+}
+/*ESTILOS iNDEX y PAGINA 3*/
+.paragrafth-index{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*ESTILOS PAGINA 1*/
+.one-img img{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: auto;
+}
+/*ESTILOS PAGINA 2*/
+#Manada{
+    h2{
+        color: gold;
+    }
+}
+#Unidad{
+    h2{
+        color: darkgreen;
+    }
+}
+#Caminantes{
+    h2{
+        color: blue;
+    }
+}
+#Rover{
+    h2{
+        color: red;
+    }
+}
+/*ESTILOS PAGINA 3*/
+.paragrafth-pag3{
+    h2{
+        color: darkmagenta;
+    }
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
