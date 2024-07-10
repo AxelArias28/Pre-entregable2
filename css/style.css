@@ -21,10 +21,13 @@
     font-size: 24px; 
     margin-bottom: 3px;
 }
-#header-1 h4 {
+#header-1 h2 {
     font-size: 14px;
 }
-
+.contactos a{
+    display: flexbox;
+    justify-content: flex-end;
+}
 
 /* Estilos barra de navegación */
 nav ul {
@@ -58,17 +61,41 @@ nav ul li:hover > ul {
 
 
 footer{
-        color: white; 
-        background-color: darkmagenta;
-        text-decoration-line: none;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-.footer-general img{
-    width: 6%;
+    color: white; 
+    background-color: darkmagenta;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.footer-general a{
+    text-decoration: none;
+    color: white;
+}
+.footer-general-insta {
+    padding-left: 3%;
+}
+.footer-general-insta img{
+    width: 5%;
     height: auto;
 }
+.footer-general-whats{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 3%;
+}
+.footer-general-whats img{
+    width: 10%;
+    height: auto;
+}
+.footer-general-whats p{
+    display: flex;
+    align-items: center;
+}
+
+
 /*ESTILOS iNDEX */
 
 .paragrafth-index{
@@ -81,21 +108,39 @@ footer{
     margin-top: 10%;
     margin-bottom: 10%;
 }
-.carusel-img img{
-max-width: 20%;
-height: auto;
-}
 .iframe-map{
     display: flex;
     justify-content: center;
     
 }
+section p a{
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+}
+
 /*ESTILOS PAGINA 1*/
-.one-img img{
+.pag-1-paragraft-1 h2{
+    color: darkmagenta;
+}
+.one-img-pag1 {
+    text-align: center;
     display: flex;
-    justify-content: center;
-    width: 60%;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.one-img-pag1 img{
+    width: 80%;
     height: auto;
+}
+
+.pag-1-paragraft-2 h2{
+    color: darkmagenta;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 3%;
 }
 /*ESTILOS PAGINA 2*/
 
